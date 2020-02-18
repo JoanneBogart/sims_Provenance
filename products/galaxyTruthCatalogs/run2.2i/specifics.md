@@ -10,11 +10,11 @@
 
 ## Data inputs
 
-| Input type         | Version      | Location                                        |
-| ------------------ | ------------ | ----------------------------------------------- | 
-| sed files          |  2017.01.24  | $SIMS_SED_LIBRARY_DIR                           |
-| healpixel list     |  N/A         | Sims_Provenance/runs/run2.2i/healpixels_wfd.txt |  
-| CosmoDC2           |  1.1.4       | via GCR catalog name 'cosmoDC2_v1.1.4_image'    |
+| Input type         | Version      | Location                                          |
+| ------------------ | ------------ | ------------------------------------------------- | 
+| sed files          |  2017.01.24  | $SIMS_SED_LIBRARY_DIR (value set by sims setup)   |
+| healpixel list     |  N/A         | Sims_Provenance/runs/run2.2i/healpixels_wfd.txt   |  
+| CosmoDC2           |  1.1.4       | via GCR catalog name 'cosmoDC2_v1.1.4_image'      |
 
 ## Outputs
 

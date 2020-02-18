@@ -34,7 +34,7 @@ Data for each healpixel are generated independently, on a node dedicated to
 that healpixel.  One process is started to run bin.src/write_gal_truth.py
 with the healpixel as argument. This process does some work global to the
 healpixel,  divides the total collection of galaxies belonging to the
-healpixel into chunks, then starts subprocesses distributes the chunks
+healpixel into chunks, then starts subprocesses, distributes the chunks
 among them. and waits for all chunks to complete.
 
 
