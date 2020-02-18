@@ -6,6 +6,7 @@ LSSTDESC/sims_TruthCatalog
 ## Code Dependencies
 * lsst.sims.photUtils (repo lsst/sims_photUtils)
 * lsst.sims.catUtils   (repo lsst/sims_catUtils)
+* shifter image (encompasses all of above)
 * GCRCatalogs
 
 ## Input Data
