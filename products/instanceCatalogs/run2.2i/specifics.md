@@ -5,7 +5,7 @@
 | Type                     | Version                                                    |
 | ------------------------ | ---------------------------------------------------------- |
 | sims_GCRCatSimInterface  | tag v0.1.3                                                 |
-| throughputs              |                                                            |
+| throughputs              | tag DC2production                                          |
 | shifter image            | docker:lsstdesc/stack-sims-cat:w_2019_37-sims_w_2019_37-v1 |
 | GCRcatalogs              | GCRCatalogs-0.8.8                                          |
 
@@ -30,9 +30,9 @@ sims_GCRCatSimInterface/workspaece/run2.1/config_file_2.1.wfd.json
 ## Outputs
 
 One tar file and one log file per visit.
-At NERSC they were written to
-/global/cscratch1/sd/descim/instcat/<year-subdirectory>
-but most have since been backed up and copied elsewhere
+At NERSC they were written to directories lie
+/global/cscratch1/sd/descim/instcat_y03_191109
+but they have since been backed up and copied elsewhere
 
 
 ## Procedure
@@ -41,8 +41,8 @@ but most have since been backed up and copied elsewhere
    for each year of instance catalogs to be generated.
    Use --min_obs and --max_obs arguements to specify visits to be included. Here are
    the limits used:
-   ```
-y01:    0 <= obsHistID <= 262897
+ 
+```y01:    0 <= obsHistID <= 262897
 y02:    262897 < obsHistID <= 497969
 y03:    497969 < obsHistID <= 741642
 y04:    741642 < obsHistID <= 991924
@@ -52,8 +52,8 @@ y07:    1476730 < obsHistID <= 1713247
 y08:    1713247 < obsHistID <= 1977250
 y09:    1977250 < obsHistID <= 2221327
 y10:    221327 < obsHistID
+```
 
-   ```
    Value for --config_file_name areg. is noted above.
    Used --n_jobs=14
    --candidate_file=sims_GCRSimInterface.workspace/run2.1/data/master_obshistid_list.txt
